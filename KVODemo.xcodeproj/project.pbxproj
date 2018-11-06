@@ -15,6 +15,7 @@
 		C69462422190386B0003254A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C69462412190386B0003254A /* main.m */; };
 		C694624C2190386C0003254A /* KVODemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C694624B2190386C0003254A /* KVODemoTests.m */; };
 		C69462572190386C0003254A /* KVODemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C69462562190386C0003254A /* KVODemoUITests.m */; };
+		C6946266219134770003254A /* myKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = C6946265219134770003254A /* myKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C69462522190386C0003254A /* KVODemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVODemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69462562190386C0003254A /* KVODemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVODemoUITests.m; sourceTree = "<group>"; };
 		C69462582190386C0003254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6946264219134770003254A /* myKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myKVO.h; sourceTree = "<group>"; };
+		C6946265219134770003254A /* myKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myKVO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C6946233219038690003254A /* AppDelegate.m */,
 				C6946235219038690003254A /* ViewController.h */,
 				C6946236219038690003254A /* ViewController.m */,
+				C6946264219134770003254A /* myKVO.h */,
+				C6946265219134770003254A /* myKVO.m */,
 				C6946238219038690003254A /* Main.storyboard */,
 				C694623B2190386B0003254A /* Assets.xcassets */,
 				C694623D2190386B0003254A /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6946266219134770003254A /* myKVO.m in Sources */,
 				C6946237219038690003254A /* ViewController.m in Sources */,
 				C69462422190386B0003254A /* main.m in Sources */,
 				C6946234219038690003254A /* AppDelegate.m in Sources */,
